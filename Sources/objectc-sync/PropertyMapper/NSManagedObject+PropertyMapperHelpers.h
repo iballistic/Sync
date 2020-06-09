@@ -1,4 +1,4 @@
-@import CoreData;
+#import <CoreData/CoreData.h>
 
 #import "PropertyMapper.h"
 

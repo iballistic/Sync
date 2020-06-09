@@ -1,9 +1,9 @@
-@import CoreData;
-@import Foundation;
+#import <CoreData/CoreData.h>
+#import <Foundation/Foundation.h>
 
-#import "NSDate+PropertyMapper.h"
-#import "NSEntityDescription+PrimaryKey.h"
-#import "Inflections.h"
+#import "../DateParser/NSDate+PropertyMapper.h"
+#import "../PrimaryKey/NSEntityDescription+PrimaryKey.h"
+#import "../Inflections/Inflections.h"
 
 FOUNDATION_EXPORT double PropertyMapperVersionNumber;
 FOUNDATION_EXPORT const unsigned char PropertyMapperVersionString[];

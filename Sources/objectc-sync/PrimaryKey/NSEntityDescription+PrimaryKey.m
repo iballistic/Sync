@@ -1,7 +1,7 @@
 #import "NSEntityDescription+PrimaryKey.h"
 
-#import "Inflections.h"
-#import "NSPropertyDescription+Sync.h"
+#import "../Inflections/Inflections.h"
+#import "../Sync/NSPropertyDescription+Sync.h"
 
 @implementation NSEntityDescription (PrimaryKey)
 

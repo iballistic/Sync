@@ -1,9 +1,9 @@
 #import "PropertyMapper.h"
 
-#import "Inflections.h"
-#import "NSManagedObject+PropertyMapperHelpers.h"
-#import "NSDate+PropertyMapper.h"
-#import "NSPropertyDescription+Sync.h"
+#import "../Inflections/Inflections.h"
+#import "../PropertyMapper/NSManagedObject+PropertyMapperHelpers.h"
+#import "../DateParser/NSDate+PropertyMapper.h"
+#import "../Sync/NSPropertyDescription+Sync.h"
 
 static NSString * const PropertyMapperNestedAttributesKey = @"attributes";
 
